@@ -191,6 +191,33 @@
 		}
 	}
 
+	.card-carousel {
+		background: none;
+		width: 270px;
+		height: @line-height-computed * 33;
+		margin: 0 auto;
+		padding: 95px 0px 84px;
+
+		@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+			width: 100%;
+			background-position: top center;
+			background-size: 100% auto;
+			padding: 95px 37px 88px;
+			height: @line-height-computed * 22;
+		}
+
+		@media (max-width: @screen-sm-max) {
+			background: none;
+			padding: 30px;
+			width: 100%;
+			height: auto;
+
+			img {
+				margin: 0 auto;
+			}
+		}
+	}
+
 	.feature-block {
 		cursor: pointer;
 
