@@ -79,7 +79,7 @@
     return false;
   });
 
-  $('.iphone-carousel').on('slid.bs.carousel', function () {
+  $('.card-carousel').on('slid.bs.carousel', function () {
     var carouselData = $(this).data('bs.carousel');
     var currentIndex = carouselData.getActiveIndex();
     $('.section-iphone-features .feature-block').removeClass('active');
