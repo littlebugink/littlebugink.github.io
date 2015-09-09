@@ -7985,7 +7985,7 @@ p {
 }
 .section-features .row > div {
   border-color: rgba(255, 255, 255, 0.1);
-  border-width: 0 1px 1px 0;
+  border-width: 0 1px 1px 0px;
   border-style: solid;
   padding-bottom: 51px;
 }
@@ -7997,8 +7997,12 @@ p {
   }
 }
 @media (min-width: 992px) {
+  .section-features .row > div:nth-child(2n) {
+    border-right: none;
+  }
   .section-features .row > div:nth-child(3n) {
     border-right: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.1) !important;
   }
   .section-features .row > div:nth-child(n+4) {
     border-bottom: none;
