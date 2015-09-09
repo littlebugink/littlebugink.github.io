@@ -8010,6 +8010,10 @@ p {
   .section-features .row > div:nth-child(2n) {
     border-right: none;
   }
+  .section-features .row > div:nth-child(3n) {
+    border-right: none;
+    border-left: none;
+  }
   .section-features .row > div:nth-child(n+3) {
     padding-top: 52px;
   }
