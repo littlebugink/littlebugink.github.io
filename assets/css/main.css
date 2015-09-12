@@ -7819,6 +7819,7 @@ p {
   }
 }
 .section-hero .site-logo {
+  background: url(../../images.littlebug.jpg) center;
   margin: -52px 0 104px;
 }
 @media (max-width: 1200px) {
