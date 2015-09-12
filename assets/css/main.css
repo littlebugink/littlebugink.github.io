@@ -7819,21 +7819,9 @@ p {
   }
 }
 .section-hero .site-logo {
-  background: url(../../images.littlebug.jpg) center;
-  margin: -52px 0 104px;
-}
-@media (max-width: 1200px) {
-  .section-hero .site-logo {
-    margin-bottom: 78px;
-  }
-}
-@media (max-width: 767px) {
-  .section-hero .site-logo {
-    margin-bottom: 52px;
-  }
-  .section-hero .site-logo img {
-    max-height: 104px;
-  }
+  background: url(../img/littlebuglogo450.png) center;
+  height: 450px;
+  width: 100%;
 }
 .section-hero .cta {
   margin-bottom: 208px;
