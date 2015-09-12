@@ -7790,7 +7790,6 @@ p {
 }
 .section-hero {
   text-align: center;
-  background: url(../../images/hero.png) center;
   background-size: cover;
 }
 @media (max-width: 1200px) {
