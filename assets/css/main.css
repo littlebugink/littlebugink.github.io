@@ -7820,6 +7820,7 @@ p {
 }
 .section-hero .site-logo {
   background: url(../img/littlebuglogo450.png) center;
+  background-repeat: no-repeat;
   height: 450px;
   width: 100%;
 }
