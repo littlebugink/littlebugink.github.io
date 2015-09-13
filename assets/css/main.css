@@ -7818,23 +7818,10 @@ p {
   }
 }
 .section-hero .site-logo {
-  background: url(../img/littlebuglogo450.png) center;
+  background: url(../img/littlebuglogo250.png) center;
   background-repeat: no-repeat;
-  height: 450px;
+  height: 250px;
   width: 100%;
-}
-.section-hero .cta {
-  margin-bottom: 208px;
-}
-@media (max-width: 1200px) {
-  .section-hero .cta {
-    margin-bottom: 78px;
-  }
-}
-@media (max-width: 992px) {
-  .section-hero .cta {
-    margin-bottom: 182px;
-  }
 }
 @media (max-width: 767px) {
   .section-hero .cta {
@@ -7856,6 +7843,20 @@ p {
 }
 .section-iphone-features .section-header {
   margin-bottom: 26px;
+}
+.section-iphone-features .right-to-center {
+  text-align: right;
+}
+.section-iphone-features .left-to-center {
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .section-iphone-features .right-to-center {
+    text-align: center;
+  }
+  .section-iphone-features .left-to-center {
+    text-align: center;
+  }
 }
 .section-iphone-features .feature-block {
   margin-bottom: 39px;

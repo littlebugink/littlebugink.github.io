@@ -94,9 +94,9 @@
 	}
 
 	.site-logo {
-		background: url(../img/littlebuglogo450.png) center;
+		background: url(../img/littlebuglogo250.png) center;
 		background-repeat: no-repeat;
-		height: 450px;
+		height: 250px;
 		width: 100%;
 		// margin: -(@line-height-computed * 2) 0 (@line-height-computed * 4);
 
@@ -114,15 +114,6 @@
 	}
 
 	.cta {
-		margin-bottom: @line-height-computed * 8;
-
-		@media (max-width: @screen-lg) {
-			margin-bottom: @line-height-computed * 3;
-		}
-
-		@media (max-width: @screen-md) {
-			margin-bottom: @line-height-computed * 7;
-		}
 
 		@media (max-width: @screen-xs-max) {
 			margin-bottom: @line-height-computed;
@@ -145,6 +136,24 @@
 
 	.section-header {
 		margin-bottom: @line-height-computed;
+	}
+
+	.right-to-center {
+		text-align: right;
+	}
+
+	.left-to-center {
+		text-align: left;
+	}
+
+	@media (max-width: @screen-sm) {
+		.right-to-center {
+			text-align: center;
+		}
+
+		.left-to-center {
+			text-align: center;
+		}
 	}
 
 	.feature-block {
