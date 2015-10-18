@@ -85,4 +85,10 @@
     $('.section-iphone-features .feature-block').removeClass('active');
     $(".section-iphone-features").find("[data-slide-to='" + currentIndex + "']").addClass('active');
   });
+
+  $('a.project-thumbnail').on('click', function() {
+    var img = $('div.project-thumbnail > img');
+    img.attr('src', $(this).data('largeImage'));
+  });
+
 })(jQuery);
